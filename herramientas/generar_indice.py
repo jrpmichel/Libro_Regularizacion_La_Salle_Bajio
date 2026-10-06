@@ -8,7 +8,7 @@ usan repo.json (usuario, repositorio, rama)."""
 import json, pathlib, re
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
-BLOQUES = {'dif': 'Cálculo diferencial', 'int': 'Cálculo integral', 'alg': 'Álgebra lineal'}
+BLOQUES = {'pre': 'Preliminares', 'dif': 'Cálculo diferencial', 'int': 'Cálculo integral', 'alg': 'Álgebra lineal'}
 BADGE = '[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)]({url})'
 
 
@@ -62,19 +62,19 @@ def readme_raiz():
     for b, u in unidades():
         ruta = f'{b}/{u.name}'
         L.append(f'| {BLOQUES[b]} | {titulo(u)} | {BADGE.format(url=colab(ruta + ".ipynb"))} | [`{u.name}.ipynb`]({ruta}.ipynb) | [`{ruta}/`]({ruta}) |')
-    L += ['', 'Las unidades restantes se publican conforme se terminan.', '',
+    L += ['', 'Las unidades restantes se publican conforme se terminan. Empieza por el primer notebook (Preliminares).', '',
           '## Cómo usarlos en Colab', '',
           '1. Pulsa el botón **Abrir en Colab** de la unidad. Necesitas una cuenta de Google; no se instala nada.',
-          '2. Ejecuta las celdas en orden: menú *Entorno de ejecución → Ejecutar todo*.',
+          '2. Ejecuta las celdas en orden: menú *Entorno de ejecución → Ejecutar todas*.',
           '3. En cada sección, haz a mano la celda **Contrasta** antes de ejecutarla y compara con la calculadora.', '',
-          'Para conservar tus cambios, usa *Archivo → Guardar una copia en Drive*. El notebook de este repositorio no cambia cuando tú lo modificas.', '',
+          'Para conservar tus cambios, usa *Archivo → Guardar una copia en Drive* (o el botón *Copiar en Drive*). El notebook de este repositorio no cambia cuando tú lo modificas.', '',
           '## Cómo descargar el código', '',
           '- **Todo el repositorio:** botón verde **Code → Download ZIP**.',
           '- **Un archivo:** ábrelo en GitHub y pulsa el icono de descarga (*Download raw file*).',
           '- **Un notebook desde Colab:** *Archivo → Descargar → Descargar .ipynb* (o *.py*).', '',
           '## Qué hay en cada carpeta', '',
           '```',
-          '<bloque>/                      dif, int o alg',
+          '<bloque>/                      pre (preliminares), dif, int o alg',
           '  u1_funciones.ipynb           notebook de la unidad (se abre en Colab)',
           '  u1_funciones/',
           '    NN_<subtema>.py            código de cada sección del notebook, en orden',

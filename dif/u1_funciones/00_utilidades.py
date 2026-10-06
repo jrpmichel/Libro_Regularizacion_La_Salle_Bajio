@@ -16,7 +16,7 @@
 # 5. Funciones lineal y cuadrática
 # 6. Funciones exponencial, logarítmica y trigonométricas
 #
-# **Cómo usarlo.** Ejecuta las celdas en orden (Entorno de ejecución → Ejecutar todo). Cada sección termina con una celda **Contrasta**: antes de ejecutarla, calcula a mano el caso que se indica y escribe tu resultado. La calculadora hace lo que le dices, no lo que querías decirle; por eso nunca la uses sin haber comprobado un caso que ya sabes resolver.
+# **Cómo usarlo.** Ejecuta las celdas en orden (Entorno de ejecución → Ejecutar todas). Cada sección termina con una celda **Contrasta**: antes de ejecutarla, calcula a mano el caso que se indica y escribe tu resultado. La calculadora hace lo que le dices, no lo que querías decirle; por eso nunca la uses sin haber comprobado un caso que ya sabes resolver.
 #
 # **Etiqueta del repositorio.** `DIF-U1` (bloque, unidad). Las celdas de código de cada sección vienen de `dif/u1_funciones/NN_*.py`; los fragmentos que el libro imprime, de `dif/u1_funciones/fragmentos/`.
 #

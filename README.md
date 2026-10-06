@@ -6,17 +6,18 @@ Notebooks de Python (Google Colab) y código de los ejemplos del *Libro de regul
 
 | Bloque | Unidad | Colab | Notebook | Código |
 |---|---|---|---|---|
+| Preliminares | Primer notebook | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/pre/u0_primer_notebook.ipynb) | [`u0_primer_notebook.ipynb`](pre/u0_primer_notebook.ipynb) | [`pre/u0_primer_notebook/`](pre/u0_primer_notebook) |
 | Cálculo diferencial | Dif. U1 · Funciones | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/dif/u1_funciones.ipynb) | [`u1_funciones.ipynb`](dif/u1_funciones.ipynb) | [`dif/u1_funciones/`](dif/u1_funciones) |
 
-Las unidades restantes se publican conforme se terminan.
+Las unidades restantes se publican conforme se terminan. Empieza por el primer notebook (Preliminares).
 
 ## Cómo usarlos en Colab
 
 1. Pulsa el botón **Abrir en Colab** de la unidad. Necesitas una cuenta de Google; no se instala nada.
-2. Ejecuta las celdas en orden: menú *Entorno de ejecución → Ejecutar todo*.
+2. Ejecuta las celdas en orden: menú *Entorno de ejecución → Ejecutar todas*.
 3. En cada sección, haz a mano la celda **Contrasta** antes de ejecutarla y compara con la calculadora.
 
-Para conservar tus cambios, usa *Archivo → Guardar una copia en Drive*. El notebook de este repositorio no cambia cuando tú lo modificas.
+Para conservar tus cambios, usa *Archivo → Guardar una copia en Drive* (o el botón *Copiar en Drive*). El notebook de este repositorio no cambia cuando tú lo modificas.
 
 ## Cómo descargar el código
 
@@ -27,7 +28,7 @@ Para conservar tus cambios, usa *Archivo → Guardar una copia en Drive*. El not
 ## Qué hay en cada carpeta
 
 ```
-<bloque>/                      dif, int o alg
+<bloque>/                      pre (preliminares), dif, int o alg
   u1_funciones.ipynb           notebook de la unidad (se abre en Colab)
   u1_funciones/
     NN_<subtema>.py            código de cada sección del notebook, en orden
