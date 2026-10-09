@@ -17,6 +17,7 @@ Notebooks de Python (Google Colab) y código de los ejemplos del *Libro de regul
 | Cálculo integral | Int. U2 · Sumas de Riemann | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/int/u2_riemann.ipynb) | [`u2_riemann.ipynb`](int/u2_riemann.ipynb) | [`int/u2_riemann/`](int/u2_riemann) |
 | Cálculo integral | Int. U3 · Antiderivada | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/int/u3_antiderivada.ipynb) | [`u3_antiderivada.ipynb`](int/u3_antiderivada.ipynb) | [`int/u3_antiderivada/`](int/u3_antiderivada) |
 | Cálculo integral | Int. U4 · Teorema fundamental del cálculo | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/int/u4_tfc.ipynb) | [`u4_tfc.ipynb`](int/u4_tfc.ipynb) | [`int/u4_tfc/`](int/u4_tfc) |
+| Cálculo integral | Int. U5 · Técnicas de integración | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/int/u5_tecnicas.ipynb) | [`u5_tecnicas.ipynb`](int/u5_tecnicas.ipynb) | [`int/u5_tecnicas/`](int/u5_tecnicas) |
 
 Las unidades restantes se publican conforme se terminan. Empieza por el primer notebook (Preliminares).
 
