@@ -2,6 +2,7 @@ numpy>=1.26
 sympy>=1.12
 matplotlib>=3.8
 ipywidgets>=8
+scipy>=1.11
 jupyterlab>=4
 # solo para herramientas/ensamblar.py y probar_fragmentos.py
 nbformat>=5.9

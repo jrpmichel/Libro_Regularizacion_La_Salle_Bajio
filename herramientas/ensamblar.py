@@ -74,8 +74,10 @@ def ensamblar(unidad, ejecutar=False, salida=None):
         print('Ejecución sin errores.')
         for o in nb.cells[-1].get('outputs', []):
             print(o.get('text', '').strip())
-    for c in nb.cells:                    # se entrega sin salidas
+    for i, c in enumerate(nb.cells):      # se entrega sin salidas ni marcas de ejecución
         if c.cell_type == 'code': c.outputs, c.execution_count = [], None
+        c.metadata.pop('execution', None)
+        c.id = f'celda-{i:03d}'           # ids fijos: reensamblar no cambia el archivo si no cambia el contenido
     nb.metadata.pop('widgets', None)      # evita "Invalid Notebook" en GitHub
     nbformat.validate(nb)
     nbformat.write(nb, destino)

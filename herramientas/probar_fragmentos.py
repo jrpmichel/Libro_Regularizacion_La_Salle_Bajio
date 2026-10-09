@@ -11,6 +11,8 @@ Uso:  python herramientas/probar_fragmentos.py dif/u1_funciones
    Si el repositorio vive dentro de la carpeta del libro (existe ../Secciones/<bloque>-<unidad>.tex),
    cada \\fragmento{tipo}{ID}{archivo} del .tex debe apuntar a un archivo con ese ID y ningún
    fragmento puede quedar sin usar. En un clon del repositorio solo se auditan las cabeceras.
+   Los fragmentos solo pueden traer caracteres ASCII o Latin-1 (acentos, ñ, °, ², ±): con XeLaTeX, listings
+   imprime fuera de orden los demás (√, π, ≈...).
 2. Ejecución. Cada fragmento corre como script independiente (matplotlib sin ventana).
 Termina con código 1 si falla cualquier comprobación."""
 import os, pathlib, re, subprocess, sys
@@ -37,6 +39,11 @@ for f in frags:
     if not cab[1].startswith('# Libro: '): errores.append(f'{f.name}: falta "# Libro:" en la línea 2')
     esperado = f'# Repositorio: {bloque}/{unidad}/fragmentos/{f.name}'
     if cab[2] != esperado: errores.append(f'{f.name}: línea 3 debe ser "{esperado}"')
+# Fuera de Latin-1 (√, π, ≈...), listings imprime los caracteres fuera de orden con XeLaTeX
+for f in frags:
+    for n, linea in enumerate(f.read_text(encoding='utf-8').split('\n')[3:], 4):
+        raros = sorted({c for c in linea if ord(c) > 0xFF})
+        if raros: errores.append(f'{f.name}, línea {n}: {raros} no se imprime bien en el libro; escribe sqrt, pi, aprox.')
 for f in sorted(carpeta.glob('[0-9][0-9]_*.py')):
     primera = f.read_text(encoding='utf-8').split('\n')
     if not re.match(rf'# ID: {bloque.upper()}-U\d+-NB{f.name[:2]}$', primera[0]):
