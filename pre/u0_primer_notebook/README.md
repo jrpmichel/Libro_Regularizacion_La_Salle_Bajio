@@ -15,5 +15,8 @@ Notebook completo: [`u0_primer_notebook.ipynb`](../u0_primer_notebook.ipynb). Ca
 | Archivo | Dónde aparece |
 |---|---|
 | [`pre-u0-s1-primer-programa.py`](fragmentos/pre-u0-s1-primer-programa.py) | capítulo Python y Google Colab: primer programa |
+| [`pre-u0-s2-numpy.py`](fragmentos/pre-u0-s2-numpy.py) | numpy: arreglos, operaciones, algebra lineal y angulos |
+| [`pre-u0-s3-sympy.py`](fragmentos/pre-u0-s3-sympy.py) | sympy: derivadas, integrales, limites, ecuaciones y matrices |
+| [`pre-u0-s4-matplotlib.py`](fragmentos/pre-u0-s4-matplotlib.py) | matplotlib: grafica con ejes rotulados y estilos de linea |
 
 Para ejecutar un fragmento en tu computadora: `python fragmentos/<archivo>.py`. En Colab, copia su contenido en una celda de código.
