@@ -62,7 +62,7 @@ def readme_raiz():
     for b, u in unidades():
         ruta = f'{b}/{u.name}'
         L.append(f'| {BLOQUES[b]} | {titulo(u)} | {BADGE.format(url=colab(ruta + ".ipynb"))} | [`{u.name}.ipynb`]({ruta}.ipynb) | [`{ruta}/`]({ruta}) |')
-    L += ['', 'Las unidades restantes se publican conforme se terminan. Empieza por el primer notebook (Preliminares).', '',
+    L += ['', 'Están publicadas las 18 unidades del libro. Empieza por el primer notebook (Preliminares).', '',
           '## Cómo usarlos en Colab', '',
           '1. Pulsa el botón **Abrir en Colab** de la unidad. Necesitas una cuenta de Google; no se instala nada.',
           '2. Ejecuta las celdas en orden: menú *Entorno de ejecución → Ejecutar todas*.',

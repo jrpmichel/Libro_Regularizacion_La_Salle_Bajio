@@ -24,8 +24,9 @@ Notebooks de Python (Google Colab) y código de los ejemplos del *Libro de regul
 | Álgebra lineal | Álg. U3 · Sistemas lineales y rango | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/alg/u3_sistemas.ipynb) | [`u3_sistemas.ipynb`](alg/u3_sistemas.ipynb) | [`alg/u3_sistemas/`](alg/u3_sistemas) |
 | Álgebra lineal | Álg. U4 · Espacios vectoriales y transformaciones lineales | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/alg/u4_espacios.ipynb) | [`u4_espacios.ipynb`](alg/u4_espacios.ipynb) | [`alg/u4_espacios/`](alg/u4_espacios) |
 | Álgebra lineal | Álg. U5 · Ortogonalidad y mínimos cuadrados | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/alg/u5_ortogonalidad.ipynb) | [`u5_ortogonalidad.ipynb`](alg/u5_ortogonalidad.ipynb) | [`alg/u5_ortogonalidad/`](alg/u5_ortogonalidad) |
+| Álgebra lineal | Álg. U6 · Aplicaciones a ingeniería | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrpmichel/Libro_Regularizacion_La_Salle_Bajio/blob/main/alg/u6_aplicaciones.ipynb) | [`u6_aplicaciones.ipynb`](alg/u6_aplicaciones.ipynb) | [`alg/u6_aplicaciones/`](alg/u6_aplicaciones) |
 
-Las unidades restantes se publican conforme se terminan. Empieza por el primer notebook (Preliminares).
+Están publicadas las 18 unidades del libro. Empieza por el primer notebook (Preliminares).
 
 ## Cómo usarlos en Colab
 
